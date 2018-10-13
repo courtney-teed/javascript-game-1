@@ -7,6 +7,10 @@ button.onclick = shakeBall;
 
 var yourFortune = document.querySelector('#fortune-wrapper p span');
 
+//create placeholder text and append to yourFortune paragraph
+var fortuneTextPlaceholder = document.createTextNode('');
+yourFortune.appendChild(fortuneTextPlaceholder);
+
 //function
 var shakeBall = function() {
 	//randomize fortune array
