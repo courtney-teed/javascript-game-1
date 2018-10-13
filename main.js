@@ -5,6 +5,8 @@ var button = document.getElementsByTagName('button')[0];
 //Event handler
 button.onclick = shakeBall;
 
+var yourFortune = document.querySelector('#fortune-wrapper p span');
+
 //function
 var shakeBall = function() {
 	//randomize fortune array
