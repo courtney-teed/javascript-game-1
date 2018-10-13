@@ -15,4 +15,7 @@ yourFortune.appendChild(fortuneTextPlaceholder);
 var shakeBall = function() {
 	//randomize fortune array
 	magicFortunes.sort(function(a, b){return 0.5 - Math.random()});
+	//print first list item to fortune p span
+	var fortuneText = document.createTextNode(magicFortunes[0]);
+	yourFortune.appendChild(fortuneText);
 };
