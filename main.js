@@ -21,4 +21,6 @@ var shakeBall = function() {
 	//hide generator button
 	var ourButton = document.getElementById('generator-button');
 	ourButton.removeChild(button);
+	//add class to fortune
+	yourFortune.classList.add('fortune-show');
 };
