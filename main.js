@@ -18,4 +18,7 @@ var shakeBall = function() {
 	//print first list item to fortune p span
 	var fortuneText = document.createTextNode(magicFortunes[0]);
 	yourFortune.appendChild(fortuneText);
+	//hide generator button
+	var ourButton = document.getElementById('generator-button');
+	ourButton.removeChild(button);
 };
